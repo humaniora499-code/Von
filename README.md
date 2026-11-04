@@ -1,3 +1,16 @@
+# Von
+
+**Von** is my personal fork of [nanoMuse](https://github.com/nano-muse/nanoMuse), an open-source personal agent for every device you own, kept as the base for a future self-hosted personal-agent setup on my own mini server.
+
+## Status
+
+- **Parked plan ("mini-server era"):** nothing here is deployed or running yet. This fork is a study and preparation base.
+- **Upstream:** https://github.com/nano-muse/nanoMuse. Everything below this header is the upstream project's original README.
+- **License:** GPL-3.0-or-later, unchanged. Original copyright and attribution remain with the nanoMuse authors (see `LICENSE` and `NOTICE`).
+- ⚠️ **Never commit secrets, API keys, or real `.env` files to this public repository.**
+
+---
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/nano-muse/nanoMuse/main/assets/brand/nanomuse-cover.png" alt="nanoMuse: an open-source personal agent for every device you own">
 </p>
