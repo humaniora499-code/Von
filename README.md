@@ -1,10 +1,10 @@
-# Von
+# nanoVon
 
-**Von** is my personal fork of [nanoMuse](https://github.com/nano-muse/nanoMuse), an open-source personal agent for every device you own, run as a self-hosted personal-agent setup on my own server.
+**nanoVon** is my personal fork of [nanoMuse](https://github.com/nano-muse/nanoMuse), an open-source personal agent for every device you own, run as a self-hosted personal-agent setup on my own server.
 
 ## Status
 
-- **Running:** the relay built from this fork is live on my own server in private mode (sign-ups closed, chat record off). The apps still carry the upstream branding; a full rebrand is future work.
+- **Running:** the relay built from this fork is live on my own server in private mode (sign-ups closed, chat record off), and the agent runtime runs on the same server as nanoVon, thinking through that relay, styled after the always-on single-machine assistant pattern. The apps still carry the upstream branding; a full rebrand is future work.
 - **Upstream:** https://github.com/nano-muse/nanoMuse. Everything below this header is the upstream project's original README.
 - **License:** GPL-3.0-or-later, unchanged. Original copyright and attribution remain with the nanoMuse authors (see `LICENSE` and `NOTICE`).
 - ⚠️ **Never commit secrets, API keys, or real `.env` files to this public repository.**
