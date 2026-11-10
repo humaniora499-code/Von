@@ -1,0 +1,25 @@
+# Cron Jobs Hermes — Rutinitas Otomatis
+
+## Schedule
+
+### Pagi (Asia/Tokyo 07:00)
+- job: status-check
+  type: health-check
+  service: github
+  interval: 1h
+
+### Siang (Asia/Tokyo 12:00)  
+- job: task-update
+  type: check-tasks
+  source: buku-tugas
+
+### Malam (Asia/Tokyo 21:00)
+- job: daily-review
+  type: self-improvement
+  action: review-and-learn
+  output: vault/pelajaran-hari.md
+
+## Notes
+- Semua job jalankan via hermes-schedule
+- Notification lewat wa_status bila ada error
+- Backup vault ke cloud tiap malam
